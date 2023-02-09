@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Russo One";
+    font-display: swap;
+    src: url(../FONTS/RussoOne-Regular.woff2) format(woff2);
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "Muller Bold";
+    font-display: swap;
+    src: url(../FONTS/Muller\ Bold.woff) format(woff);
+    src: url(../FONTS/Muller\ Bold.woff2) format(woff2);
+    font-weight: Bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Muller Regular";
+    font-display: swap;
+    src: url(../FONTS/Muller\ Regular.woff) format(woff);
+    src: url(../FONTS/Muller\ Regular.woff2) format(woff2);
+    font-weight: normal;
+    font-style: normal;
+}
