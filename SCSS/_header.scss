@@ -1,0 +1,297 @@
+
+
+.body-container-header {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.header-container {
+    position: relative;
+    min-height: 700px;
+    max-height: 700px;
+    width: 100%;
+}   
+
+.main-background-img-container {
+    width: 100%;
+    min-height: 700px;
+    max-height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../../SRC/IMG/background.jpg');
+
+    position: absolute;
+    z-index: -5;
+    box-shadow: 0px 0.1px 10px rgb(62, 62, 62);
+}
+
+.lady-img {
+    max-width: 100%;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: -4;
+}
+
+.header-menu-margin {
+    width: 100%;
+    height: 39px;
+    padding: 10px 0px;
+}
+.header-menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header-logo-container {
+    width: 425.22px;
+    height: 91px;
+    display: flex;
+}
+.header-logo-text-container {
+    padding: 7px;
+}
+.header-logo-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 140%;
+    color: $mainColor;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header-logo-under-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26.8525px;
+    line-height: 140%;
+    color: $mainColor;
+}
+
+.header-navbar-container {
+    width: 350px;
+    height: 19px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    color: #1B1D1F;
+
+    &:hover {
+        color: $mainColor;
+    }
+}
+
+.header-phone-container {
+    width: 174px;
+    height: 24px;
+    display: flex;
+    align-self: center;
+}
+
+.header-language-container {
+    width: 77px;
+    height: 23px;
+}
+
+.header-phone-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1B1D1F;
+    text-decoration: none;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -30px;
+        width: 20px;
+        height: 20px;
+        background-image: url('../../SRC/IMG/phone.svg');
+        background-size: contain;
+    }
+}
+
+.header-phone-container {
+    a  {
+        position: relative;
+        left: 30px;
+    }
+}
+
+.header-language {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.header-language-text-ua {
+    position: relative;
+    left: -5px;
+    margin: 0px 10px ;
+
+    &::after {
+        content: "";
+        position: absolute;
+        right: -10px;
+        top: 1px;
+        width: 2px;
+        height: 16px;
+        background-color: black;
+    }
+}
+
+.header-title-container {
+    padding-top: 46px;
+    
+    box-sizing: border-box;
+}
+
+.header-title-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #1B1D1F;
+    letter-spacing: 0.1em;
+}
+
+.header-title-under-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: $mainColor;
+    letter-spacing: 0.1em;
+}
+
+.header-title-desc-container {
+    padding-top: 30px;
+    height: 66px;
+    max-width: 465px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.header-title-desc-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.header-main-buttons-container {
+   padding-top: 50px;
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.header-main-buttons-box {
+    padding-top: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header-main-button-one-block {
+    width: 180px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 35px;
+    gap: 10px;
+    background: linear-gradient(97.59deg, $mainColor 9.8%, $mainColor 95.1%);
+    box-shadow: 0px 2px 10px $mainColor;
+    border-radius: 8px;
+}
+
+.header-main-button-one {
+    text-decoration: none;
+    color: white;
+    padding: 20px 70px;
+}
+
+.header-main-button-two-block {
+    width: 180px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 35px;
+    gap: 10px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    border: 1px solid #DDE0DC;
+    box-shadow: 0px 2px 10px #DDE0DC;
+    border-radius: 8px;
+}
+.header-main-button-two {
+    text-decoration: none;
+    color: $mainColor;
+    padding: 20px 53px;
+}
+
+.header-cards-container {
+    padding-top: 90px;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.header-card {
+    margin: 5px;
+    width: 280px;
+    height: 120px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #D8E1E1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    display: flex;
+}
+
+.header-card-title {
+    padding: 5px;
+    height: 120px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 76px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: $mainColor;
+}
+
+.header-card-desc {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1B1D1F;
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+}

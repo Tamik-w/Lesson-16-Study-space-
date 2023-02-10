@@ -1,0 +1,183 @@
+/* HEADER-TITLE-ANIMATION */
+
+.header-title-animation-text-1 {
+    position: absolute;
+    top: 23%;
+    animation: header-title1 $mainTransition ease-out;
+
+    @keyframes header-title1 {
+        0% {
+          opacity: 0;
+          top: 33%;
+        }
+    }
+}
+
+.header-title-animation-text-2 {
+    position: absolute;
+    top: 29%;
+    animation: header-title2 $mainTransition ease-out;
+
+    @keyframes header-title2 {
+        0% {
+            opacity: 0;
+            top: 39%;
+          }
+    }
+}
+
+.header-title-animation-text-3 {
+    position: absolute;
+    top: 35%;
+    animation: header-title3 $mainTransition ease-out;
+
+    @keyframes header-title3 {
+        0% {
+            opacity: 0;
+            top: 45%;
+          }
+    }
+}
+/* HEADER-TITLE-ANIMATION */
+
+/* HEADER-DESC&BUTTONS-ANIMATION */
+
+.header-title-desc-animation {
+    position: absolute;
+    top: 40%;
+    animation: header-desc 0.8s ease-out;
+
+    @keyframes header-desc {
+        0% {
+            opacity: 0;
+            top: 45%;
+        }
+        50% {
+            opacity: 0;
+        }
+    }
+}
+
+.header-main-buttons-animation {
+    position: absolute;
+    top: 45%;
+    animation: header-buttons 0.8s ease-out;
+
+    @keyframes header-buttons {
+        0% {
+            opacity: 0;
+            top: 50%;
+        }
+        50% {
+            opacity: 0;
+        }
+    }
+}
+
+/* HEADER-DESC&BUTTONS-ANIMATION */
+
+/* HEADER-CARDS-ANIMATION */
+
+.header-cards-animation {
+    position: absolute;
+    top: 75%;
+    left: 0%;
+    animation: header-cards 1.6s ease;
+
+    @keyframes header-cards {
+        0% {
+            opacity: 0;
+            left: -10%;
+        }
+        50% {
+            opacity: 0;
+        }
+    }
+}
+
+/* HEADER-CARDS-ANIMATION */
+
+/* MAIN-SERVICES */
+
+.main-services-little-circles {
+    animation: lit-ci $oneSecTransition ease;
+    animation-delay: 0s;
+
+    @keyframes lit-ci {
+        0% {
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50% );
+        }
+    }
+}
+
+.main-service-buttons-text-container1 {
+    animation: container1 $oneSecTransition ease;
+    animation-delay: 0s;
+    @keyframes container1 {
+        0%{
+            top: 5%;
+            left: -3%;
+        }
+    }
+}
+
+.main-service-buttons-text-container2 {
+    animation: container2 $oneSecTransition ease;
+    animation-delay: 0s;
+    @keyframes container2 {
+        0%{
+            top: 5%;
+            left: 69%;
+        }
+    }
+}
+
+.main-service-buttons-text-container3 {
+    animation: container3 $oneSecTransition ease;
+    animation-delay: 0s;
+    @keyframes container3 {
+        0%{
+            left: -5%;
+        }
+    }
+}
+
+.main-service-buttons-text-container4 {
+    animation: container4 $oneSecTransition ease;
+    animation-delay: 0s;
+    @keyframes container4 {
+        0%{
+            left: 72%;
+        }
+    }
+}
+
+.main-service-buttons-text-container5 {
+    animation: container5 $oneSecTransition ease;
+    animation-delay: 0s;
+    @keyframes container5 {
+        0%{
+            top: 70%;
+            left: -3%;
+        }
+    }
+}
+
+.main-service-buttons-text-container6 {
+    animation: container6 $oneSecTransition ease;
+    animation-delay: 0s;
+    
+    top: 65%;
+    left: 62%;
+
+    @keyframes container6 {
+        0%{
+            top: 70%;
+            left: 67%;
+        }
+    }
+}
+
+/* MAIN-SERVICES */

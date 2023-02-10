@@ -1,0 +1,268 @@
+.body-container-footer {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.footer {
+    margin-top: 78px;
+    width: 100%;
+    background: linear-gradient(to left, #0580AA, #a0c7d3);
+    font-family: 'Muller Regular';
+    position: relative;
+    box-shadow: 0px -2px 8px rgb(119, 119, 119);
+    padding-top: 50px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-box-one {
+    display: grid;
+    align-self: left flex-start;
+    padding: 10px;
+    color: #0F2C4B;
+}
+
+.footer-title-box {
+    display: flex;
+}
+
+.footer-logo-img {
+    width: 64px;
+}
+
+.footer-title-text-box {
+    font-size: 28px;
+    padding: 0px 20px;
+}
+
+.footer-title-text {
+    text-transform: uppercase;
+}
+
+.footer-untitle-text {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-under-title-info-box {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+}
+
+.footer-button-text-left {
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: #0F2C4B;
+    transition: $mainTransition;
+
+    &:hover {
+        color: white;
+    }
+}
+
+.footer-right-title-box {
+    padding-top: 30px;
+}
+
+.footer-language-text {
+    position: relative;
+    left: 5px;
+    cursor: default;
+    
+    .footer-language-ua{
+        position: relative;
+        left: -5px;
+        transition: 0.5s;
+
+        &:hover {
+            color: white;
+            
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            right: -6px;
+            top: 3px;
+            width: 2px;
+            height: 14px;
+            background-color: black;
+        }
+    }
+    .footer-language-en {
+        transition: 0.5s;
+
+        &:hover {
+            color: white;
+        }
+    }
+}
+
+/* Second-box */
+
+.footer-box-two {
+    display: grid;
+    align-self: center;
+    padding: 10px;
+    color: white;
+    padding-right: 150px;
+    padding-bottom: 0px;
+}
+
+.footer-second-title {
+    font-size: 20px;
+}
+
+.footer-name {
+    padding-top: 15px;
+}   
+
+.footer-adress {
+    padding-top: 15px;
+}
+
+.footer-button-phone {
+    text-decoration: none;
+    padding-top: 15px;
+    display: flex;
+    color: white;
+}
+
+.footer-phone-text {
+    display: grid;
+    align-self: center;
+    padding-left: 10px;
+    position: relative;
+    left: 25px;
+
+    &::before{
+        content: "";
+        position: absolute;
+        top: -5px;
+        left: -27px;
+        width: 30px;
+        height: 30px;
+        background-image: url('../../SRC/F-IMG/phone.png');
+        background-size: contain;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 22px;
+        left: 8%;
+        width: 92%;
+        height: 2px;
+        background-color: white;
+        opacity: 0;
+        transition: $mainTransition;
+    }
+
+    &:hover::after {
+        opacity: 1;
+    }
+}
+
+.footer-social-media-buttons {
+    padding-top: 15px;
+    display: flex;
+}
+
+.footer-button-img {
+    padding-right: 10px;
+}
+
+.footer-instagram-button {
+    text-decoration: none;
+    padding-top: 5px;
+    display: flex;
+    color: #FFFFFF;
+}
+
+.footer-instagram-text {
+    display: grid;
+    align-self: center;
+    padding-left: 10px;
+    position: relative;
+    left: 25px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: -5px;
+        left: -27px;
+        width: 30px;
+        height: 30px;
+        background-image: url('../../SRC/F-IMG/instagram.png');
+        background-size: contain;
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        top: 22px;
+        left: 15%;
+        width: 85%;
+        height: 2px;
+        background-color: white;
+        opacity: 0;
+        transition: $mainTransition;
+    }
+    &:hover::after {
+        opacity: 1;
+    }
+}
+
+.footer-email-button {
+    text-decoration: none;
+    padding-top: 10px;
+    display: flex;
+    color: white;
+}
+
+.footer-email-text {
+    display: grid;
+    align-self: center;
+    padding-left: 10px;
+    padding-top: 6px;
+    position: relative;
+    left: 25px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        left: -29px;
+        width: 35px;
+        height: 35px;
+        background-image: url('../../SRC/F-IMG/email.png');
+        background-size: contain;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 27px;
+        left: 6%;
+        width: 94%;
+        height: 2px;
+        background-color: white;
+        opacity: 0;
+        transition: $mainTransition;
+    }
+
+    &:hover::after {
+        opacity: 1;
+    }
+}
+
+.footer-copyright-box {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 5px;
+    margin-right: 10px;
+    color: white;
+    font-size: 12.5px;
+}
